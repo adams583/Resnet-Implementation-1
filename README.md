@@ -11,6 +11,7 @@ An implementation of a residual neural network in TensorFlow to classify CIFAR-1
 - Depth 16 network, downsampling performed by conv layers with stride 2
 - 7x7 conv, 64 -> pool/2 -> Res unit (3x3 conv 64) x 2 -> Res unit (3x3 conv 128) x 2 -> Res unit (3x3 conv 256) x 3 -> avg pool -> dense layer
 #### To do
+- Preprocess image data 
 - Decrease learning rate periodically when accuracy plateaus 
 - Experiment with different identity shortcuts 
 - Try to optimize hyperparameters
